@@ -1,5 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.*;
 //modified fork Solution1
 /**
  * @description:
@@ -36,7 +37,7 @@ class Solution1 {
 
         StringBuffer sb = new StringBuffer();
         if (numeratorLong < 0 ^ denominatorLong < 0) {
-            sb.append('-');
+            sb.append('-__-');
         }
 
         // 整数部分
